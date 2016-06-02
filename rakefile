@@ -1,0 +1,15 @@
+task :iphone do
+  sh "cucumber -p i"
+end
+
+task :ipad do
+	sh "DEVICE_TARGET='iPad Air (8.3 Simulator)' cucumber -p ipad"
+end
+
+task :android do
+	sh "calabash-android run $FS -p a"
+end
+
+task :tablet do
+	sh "calabash-android run $FS -p tablet"
+end

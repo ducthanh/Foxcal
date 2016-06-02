@@ -1,0 +1,8 @@
+source "https://rubygems.org"
+gem "calabash-android"
+gem "calabash-cucumber"
+gem "cucumber"
+gem "pry"
+gem "rspec"
+gem "json"
+gem "rest-client"

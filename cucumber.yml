@@ -1,0 +1,6 @@
+a: PLATFORM=android -r features/android-support -r features/pages -r features/step_definitions
+i: PLATFORM=ios -r features/ios-support -r features/pages -r features/step_definitions
+ah: PLATFORM=android -r features/android-support -r features/pages -r features/step_definitions --format html --out Android_report.html
+ih: PLATFORM=ios -r features/ios-support -r features/pages -r features/step_definitions --format html --out iOS_report.html
+ipad: PLATFORM=ios -r features/ipad-support -r features/pages -r features/step_definitions
+tablet: PLATFORM=android -r features/tablet-support -r features/pages -r features/step_definitions
